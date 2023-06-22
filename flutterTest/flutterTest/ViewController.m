@@ -27,6 +27,9 @@
     [flutterEngine runWithEntrypoint:nil initialRoute:@"/"];
     XXFlutterViewController *flutterViewController = [[XXFlutterViewController alloc] initWithEngine:flutterEngine nibName:nil bundle:nil];
     [self.navigationController pushViewController:flutterViewController animated:YES];
+    
+    
+    
 }
 
 @end
